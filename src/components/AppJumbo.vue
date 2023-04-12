@@ -1,15 +1,15 @@
 <template>
-    <div class="header">
-        <h1>{{ title }}</h1>
+    <div class="jumbo">
+        <img class="fireworks" src="../assets/img/212323546ba-colorful-fireworks-animated-gif-pic.gif" alt="">
     </div>
 </template>
 
 <script>
     export default {
-    name:'AppTitle',
+    name:'AppJumbo',
     data(){
         return {
-            title: 'La mia prima app con Vite!'
+            
         }
     },
     methods: {
